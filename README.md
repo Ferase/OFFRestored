@@ -6,9 +6,29 @@ A sound modding plugin built on [BepInEx](https://github.com/BepInEx/BepInEx) fo
 
 ## Building
 
-This project requires Visual Studio 2022 and .NET 4.7.1 as a baseline, however all of the references to OFF's and BepInEx's DLLs in `OffRestored.csproj` are relative to my local system. In order to build this plugin yourself, you must ensure the paths to the DLLs are correct.
+### Requirements
 
-This was my first plugin made in BepInEx, so my process was a bit whacked out when it came to referencing dependencies. I plan to soon update the references to use NuGet where it can, hopefully minimizing direct DLL references beyond the necessities.
+- [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/) (if you prefer compiling in an IDE)
+- [.NET Standard 2.1 (via .NET Core 2.1)](https://dotnet.microsoft.com/en-us/download/dotnet/2.1)
+- [BepInEx NuGet source](https://nuget.bepinex.dev/)
+- Direct references to OFF's own assemblies (place in the `lib/` directory)
+  - Assembly-CSharp.dll
+  - UnityEngine.dll
+  - UnityEngine.UI.dll
+  - DoTween.dll (a NuGet package exists but wouldn't compile with .NET Standard 2.1)
+  - DoTween.Modules.dll (a NuGet package exists but wouldn't compile with .NET Standard 2.1)
+
+### Notes
+
+Besides the above requirements, NuGet should resolve all other dependency issues assuming the BepInEx source is added. For OFF's assemblies, it would be best to copy the above DLL files from `OFF/OFF_Data/Managed/` into the `lib/` folder for easy referencing.
+
+### Compiling
+
+You can either compile from Visual Studio by choosing `Build > Build Solution` at the top toolbar or by opening the project's directory in your terminal and entering:
+
+```cmd
+dotnet build
+```
 
 ## Download
 

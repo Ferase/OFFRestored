@@ -15,7 +15,7 @@ namespace OFFRestored
         private static readonly string sound_root_dir = Path.Combine(BepInEx.Paths.PluginPath, "OFFRestored");
 
         // Set up dictionary to contain loaded audio as { "name", AudioClip }
-        private static readonly Dictionary<string, AudioClip> loaded_audio = new Dictionary<string, AudioClip>();
+        private static readonly Dictionary<string, AudioClip> loaded_audio = [];
 
         // Initialize directories
         public static void Initialize()

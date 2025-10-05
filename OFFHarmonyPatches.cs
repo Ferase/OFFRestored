@@ -75,15 +75,15 @@ namespace OFFRestored
 
             // Replaces:
             //__instance.FadeOut(audioSource, sound.fadeDuration, true);
-            traverse.Method("FadeOut", new Type[] {
+            traverse.Method("FadeOut", [
                 typeof(AudioSource),
                 typeof(float),
                 typeof(bool)
-            }, new object[] {
+            ], [
                 audioSource,
                 sound.fadeDuration,
                 true
-            }).GetValue();
+            ]).GetValue();
 
             // Replaces:
             //__instance.FadeIn(__instance.primarySource, sound, sound.fadeDuration);

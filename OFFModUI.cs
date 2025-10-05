@@ -47,7 +47,7 @@ namespace OFFRestored
             Text mod_text = mod_version_gameobject.AddComponent<Text>();
 
             // Get mod info
-            string mod_info = $"{OFFMainPlugin.Instance.Info.Metadata.Name} / v{OFFMainPlugin.Instance.Info.Metadata.Version}";
+            string mod_info = $"{OFFPluginInfo.PLUGIN_NAME} / v{OFFPluginInfo.PLUGIN_VERSION}";
             
             // If we're replacing audio, display how much we're replacing
             if (OFFMainPlugin.ReplaceMusic.Value || OFFMainPlugin.ReplaceSFX.Value)

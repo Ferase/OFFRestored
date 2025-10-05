@@ -11,6 +11,9 @@
 bin/
 obj/
 
+# Local assemblies
+lib/*.dll
+
 # =========================
 # Windows detritus
 # =========================
