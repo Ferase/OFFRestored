@@ -103,7 +103,7 @@ Always place replacement music in the `OFF/BepInEx/plugins/OFFRestored/Music` fo
 
 ## Sound Effects
 
-For best results, ensure your music has a maximum ampitude of no more than **-19 dB**.
+For best results, ensure your sound effects have a maximum ampitude of no more than **-19 dB**.
 
 All sound effects used in the game can be found within the game's ASSETS files, specifically `OFF/OFF_Data/sharedassets1.assets`.
 
