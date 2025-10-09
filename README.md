@@ -13,7 +13,7 @@ The main plugin is hosted on [Itch.io](https://ferase.itch.io/off-ost-restored) 
 - [Visual Studio Community 2022](https://visualstudio.microsoft.com/vs/) (if you prefer compiling in an IDE)
 - [.NET Standard 2.1 (via .NET Core 2.1)](https://dotnet.microsoft.com/en-us/download/dotnet/2.1)
 - [BepInEx NuGet source](https://nuget.bepinex.dev/)
-- Direct references to OFF's own assemblies (place in the `lib/` directory)
+- Direct references to OFF's own assemblies (create a new folder named `lib` inside of this project and place them there)
   - Assembly-CSharp.dll
   - UnityEngine.dll
   - UnityEngine.UI.dll
