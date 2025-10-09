@@ -8,7 +8,7 @@ This is a set of tables containing the names of all music and sound effects in O
 
 All audio must be in **WAV** format. OGG support *might* be added in the future, however the version of FMod bundled with Unity 6000.1.17 does not support Vorbis, which would mean other binaries would be required to process them.
 
-No asset etraction or injection is required for creating a sound mod with OFF Restored. Just place your audio into the correct folder with the file name that corresponds to what you would like to replace.
+No asset extraction or injection is required for creating a sound mod with OFF Restored. Just place your audio into the correct folder with the file name that corresponds to what you would like to replace.
 
 OFF's audio sources are loud, especially for music. refer to the below sections for best target amplitudes.
 
