@@ -2,6 +2,8 @@
 
 A sound modding plugin built on [BepInEx](https://github.com/BepInEx/BepInEx) for the [2025 remake of OFF](https://store.steampowered.com/app/3339880/OFF/). It allows for easy sound replacement by making every sound overridable with WAV files stored in the plugin's folders.
 
+THe main plugin is hosted on [Itch.io](https://ferase.itch.io/off-ost-restored) and comes bundled with restored music and sound from the original RPG maker version of OFF.
+
 -------------------------------------
 
 ## Building
