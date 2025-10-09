@@ -30,6 +30,10 @@ You can either compile from Visual Studio by choosing `Build > Build Solution` a
 dotnet build
 ```
 
+### Sound List & Info
+
+Please check the [sound info readme](https://github.com/Ferase/OFFRestored/blob/main/README_SoundInfo.md) for a clear list of all the audio in the game and guidelines for using OFF Restored to replace sounds in the game.
+
 ## Download
 
 The builds of this plugin are hosted on the [OFF Restored Itch.io page](https://ferase.itch.io/off-ost-restored) and will be in line with changes made here.
