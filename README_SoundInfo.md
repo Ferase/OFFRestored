@@ -8,13 +8,13 @@ This is a set of tables containing the names of all music and sound effects in O
 
 All audio must be in **WAV** format. OGG support *might* be added in the future, however the version of FMod bundled with Unity 6000.1.17 does not support Vorbis, which would mean other binaries would be required to process them.
 
-No asset extraction or injection is required for creating a sound mod with OFF Restored. Just place your audio into the correct folder with the file name that corresponds to what you would like to replace.
+No asset extraction or injection is required for creating a sound mod with OFF Restored. Just place your audio into the correct folder with the file name that corresponds to the WAV file you would like to replace.
 
-OFF's audio sources are loud, especially for music. refer to the below sections for best target amplitudes.
+OFF's audio sources are loud, especially the ones that play music. refer to the below sections for best target amplitudes.
 
 ## Music
 
-For best results, ensure your music has a maximum ampitude of no more than **-21 dB**.
+For best results, ensure your music has a maximum amplitude of no more than **-21 dB**.
 
 All music used in the game can be found within the asset bundle file located at `OFF/OFF_Data/StreamingAssets/aa/StandaloneWindows64/music_assets_all.bundle`.
 
@@ -103,7 +103,7 @@ Always place replacement music in the `OFF/BepInEx/plugins/OFFRestored/Music` fo
 
 ## Sound Effects
 
-For best results, ensure your sound effects have a maximum ampitude of no more than **-19 dB**.
+For best results, ensure your sound effects have a maximum amplitude of no more than **-19 dB**.
 
 All sound effects used in the game can be found within the game's ASSETS files, specifically `OFF/OFF_Data/sharedassets1.assets`.
 
