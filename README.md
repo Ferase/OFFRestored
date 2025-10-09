@@ -22,7 +22,7 @@ The main plugin is hosted on [Itch.io](https://ferase.itch.io/off-ost-restored) 
 
 ### Notes
 
-Besides the above requirements, NuGet should resolve all other dependency issues assuming the BepInEx source is added. For OFF's assemblies, it would be best to copy the above DLL files from `OFF/OFF_Data/Managed/` into the `lib/` folder for easy referencing.
+Besides the above requirements, NuGet should resolve all other dependency issues assuming the BepInEx source is added. For OFF's assemblies, it would be best to create a `lib` folder inside the project's directory and copy the relevant DLLs from `OFF/OFF_Data/Managed/` there.
 
 ### Compiling
 
