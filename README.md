@@ -43,7 +43,7 @@ The plugin creates a config file at `OFF/BepInEx/config/com.ferase.offrestored.c
 
 These options include:
 
-- **ShowVersionInfoOnTitle** (true/false, default true)
+- **ShowVersionInfoOnTitle** *(true/false, default true)*
   - If true, The mod name and version will be shown on the top-left of the title screen alongside how many audio files have been loaded
 - **ReplaceMusic** *(true/false, default true)*
   - If true, music will be replaced with anything in BepInEx/plugins/OFFRestored/Music
