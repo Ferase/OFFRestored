@@ -10,6 +10,12 @@ The main plugin is hosted on [Itch.io](https://ferase.itch.io/off-ost-restored) 
 
 There are two available dowload sources for the plugin.
 
+### Restored Music + SFX Pack
+
+Alternatively, you can visit the [OFF Restored Itch.io page](https://ferase.itch.io/off-ost-restored) to download a version bundled with audio from the 2008 version of OFF. This includes the original soundtrack by Alias Conrad Coldwood as well as the classic RPG Maker sound effects.
+
+Install instructions can be found on the same page.
+
 ### Releases (DLL Only)
 
 You can visit the [releases](https://github.com/Ferase/OFFRestored/releases) page to download the plugin DLL.
@@ -26,12 +32,6 @@ To install:
 Running the game will cause the plugin to create `Music` and `SFX` folders inside of the `OFFRestored` folder. This is where you will place any music or sound effects you want to replace. Check the [sound info readme](https://github.com/Ferase/OFFRestored/blob/main/README_SoundInfo.md) for a listing of all sounds in the game along with some helpful info.
 
 The plugin will also create a config at `OFF/BepInEx/config/com.ferase.offrestored.cfg` where you can change various settings and enable/disable features.
-
-### Restored Music + SFX Pack
-
-Alternatively, you can visit the [OFF Restored Itch.io page](https://ferase.itch.io/off-ost-restored) to download a version bundled with audio from the 2008 version of OFF. This includes the original soundtrack by Alias Conrad Coldwood as well as the classic RPG Maker sound effects.
-
-Install instructions can be found on the same page.
 
 ### Sound List & Info
 
