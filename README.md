@@ -36,11 +36,32 @@ dotnet build
 
 Please check the [sound info readme](https://github.com/Ferase/OFFRestored/blob/main/README_SoundInfo.md) for a clear list of all the audio in the game and guidelines for using OFF Restored to replace sounds in the game.
 
-## Download
+## Download & Install
 
-The builds of this plugin are hosted on the [OFF Restored Itch.io page](https://ferase.itch.io/off-ost-restored) and will be in line with changes made here.
+There are two available dowload sources for the plugin.
 
-In the future, a release build with only the DLL will be released here with features to better define all the sound files in the game that can be replaced, allowing this mod to function much better on its own as a general sound modding tool.
+### Releases (DLL Only)
+
+You can visit the [releases](https://github.com/Ferase/OFFRestored/releases) page to download the plugin DLL.
+
+To install:
+
+1. [Download BepInEx](https://github.com/BepInEx/BepInEx/releases/latest)
+2. Extract the BepInEx ZIP to OFF's install directory
+3. [Download the DLL](https://github.com/Ferase/OFFRestored/releases/latest)
+4. Create a folder named `OFFRestored` inside `OFF/BepInEx/plugins/`
+5. Place the `OFFRestored.dll` file inside the new `OFFRestored` folder
+6. Run the game once
+
+Running the game will cause the plugin to create `Music` and `SFX` folders inside of the `OFFRestored` folder. This is where you will place any music or sound effects you want to replace. Check the [sound info readme](https://github.com/Ferase/OFFRestored/blob/main/README_SoundInfo.md) for a listing of all sounds in the game along with some helpful info.
+
+The plugin will also create a config at `OFF/BepInEx/config/com.ferase.offrestored.cfg` where you can change various settings and enable/disable features.
+
+### Restored Music + SFX Pack
+
+Alternatively, you can visit the [OFF Restored Itch.io page](https://ferase.itch.io/off-ost-restored) to download a version bundled with audio from the 2008 version of OFF. This includes the original soundtrack by Alias Conrad Coldwood as well as the classic RPG Maker sound effects.
+
+Install instructions can be found on the same page.
 
 ## Credits
 
