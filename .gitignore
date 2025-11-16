@@ -12,7 +12,7 @@ bin/
 obj/
 
 # Local assemblies
-lib/*.dll
+lib*/*.dll
 
 # =========================
 # Windows detritus

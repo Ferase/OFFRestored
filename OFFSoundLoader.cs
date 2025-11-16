@@ -1,8 +1,9 @@
 ﻿using System;
-using UnityEngine;
-using UnityEngine.Networking;
 using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
+using UnityEngine;
+using UnityEngine.Networking;
 
 namespace OFFRestored
 {
@@ -12,7 +13,7 @@ namespace OFFRestored
         private static readonly string[] sound_types = new string[2];
 
         // Target root directory for the plugin
-        private static readonly string sound_root_dir = Path.Combine(BepInEx.Paths.PluginPath, "OFFRestored");
+        private static readonly string sound_root_dir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
 
         // Set up dictionary to contain loaded audio as { "name", AudioClip }
         private static readonly Dictionary<string, AudioClip> loaded_audio = [];
@@ -20,7 +21,7 @@ namespace OFFRestored
         // Initialize directories
         public static void Initialize()
         {
-            // Delcare which filders to create and check based on config
+            // Delcare which filters to create and check based on config
             if (OFFMainPlugin.ReplaceMusic.Value) { sound_types[0] = "Music"; }
             if (OFFMainPlugin.ReplaceSFX.Value) { sound_types[1] = "SFX"; }
 
